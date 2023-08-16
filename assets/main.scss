@@ -124,6 +124,40 @@ footer {
 	padding: 0 5px;
 }
 
+/*** Forms and Buttons ***/
+.form-inline {  
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+.form-inline label {
+  margin: 5px 5px 5px 0;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  width: 50%;
+  padding: 8px;
+  background-color: #fff;
+  border: 1px solid #020202;
+  border-radius: 30px 0px 00px 30px;
+}
+
+.form-inline button {
+  padding: 8px 20px;
+  background-color: black;
+  border: 1px solid #020202;
+  color: white;
+  cursor: pointer;
+  border-radius: 0px 30px 30px 0px;
+	font-weight: bold;
+}
+
+.form-inline button:hover {
+  background-color: #4b5320;
+}
+
 /*** media queries ***/
 /* X-Small devices (phones, 480px and up) */
 @media (min-width: 480px) {
@@ -176,38 +210,5 @@ footer {
 		margin-left: 54%;
 		padding: 0;
 	}
-	
-	.form-inline {  
-  display: flex;
-  flex-flow: row;
-  align-items: center;
-}
-
-.form-inline label {
-  margin: 5px 5px 5px 0;
-}
-
-.form-inline input {
-  vertical-align: middle;
-  width: 50%;
-  padding: 8px;
-  background-color: #fff;
-  border: 1px solid #020202;
-  border-radius: 30px 0px 00px 30px;
-}
-
-.form-inline button {
-  padding: 8px 20px;
-  background-color: black;
-  border: 1px solid #020202;
-  color: white;
-  cursor: pointer;
-  border-radius: 0px 30px 30px 0px;
-	font-weight: bold;
-}
-
-.form-inline button:hover {
-  background-color: #4b5320;
-}
 	
 }
