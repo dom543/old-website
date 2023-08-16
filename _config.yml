@@ -9,7 +9,7 @@ compass:
   # author will appear under the avatar (optional)
   author: "Dominik Criado"
   # tagline will appear under the title (optional)
-  tagline: "keep kites and classified information off telephone lines."
+  tagline: "keeping kites off telephone lines."
   # if include_content is true, the contents of the content.html include will be
   # added right above the generated item list, if present
   include_content: true
