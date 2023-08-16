@@ -1,0 +1,27 @@
+---
+layout: base
+---
+<div class="wrapper">
+    <header>
+        {% if site.compass.logo %}
+        <div class="logo-container">
+          <a class="logo" href="{{ page.baseurl }}" style="background-image: url('{{ site.baseurl }}{{ site.compass.logo }}')"></a>
+        </div>
+        {% endif %}
+
+        {% if site.compass.author %}
+        <div class="author-container"><h1>{{ site.compass.author }}</h1></div>
+        {% endif %}
+
+        {% if site.compass.tagline %}
+        <div class="tagline-container"><p>{{ site.compass.tagline }}</p><p><a href="mailto:dominik@criado.de">Kontakt</a> | <a href="https://world.hey.com/criado">Blog</a> | <a href="https://www.linkedin.com/in/dominik-criado-2a2b39224/">LinkedIn</a></div>
+        {% endif %}
+    </header>
+    <main>
+      {% if site.compass.include_content %}
+      <div class="content">
+        {% include content.html %}
+      </div>
+      {% endif %}
+    </main>
+</div>
